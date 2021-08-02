@@ -44,7 +44,7 @@ export default function Form() {
       return;
     }
 
-    onSubmit();
+    onSubmit(state);
     reset();
   };
 

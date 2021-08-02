@@ -1,4 +1,3 @@
-import PropTypes from "prop-types";
 import "./contactsList.module.css";
 import { useSelector, useDispatch } from "react-redux";
 import { deleteContact } from "../../redux/contacts/contacts-operations";
@@ -30,8 +29,3 @@ export default function ContactsList() {
     </ul>
   );
 }
-
-ContactsList.propTypes = {
-  contacts: PropTypes.array.isRequired,
-  onDeleteContact: PropTypes.func.isRequired,
-};
